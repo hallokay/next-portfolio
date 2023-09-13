@@ -1,14 +1,9 @@
-// import './globals.css'
 import type { Metadata } from 'next'
-// import { Inter } from 'next/font/google'
 import Nav from '@/components/Nav'
 
 
+import { Header, Footer } from '@/components'
 
-export const metadata: Metadata = {
-  title: '전진희 포트폴리오',
-  description: '프론트엔드 개발자 전진희 포트폴리오 사이트입니다.',
-}
 
 export default function RootLayout({
   children,
@@ -16,13 +11,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={'flex'}>
-        <Nav />
-
+    <>
+      {/* <Header /> */}
+      <Nav />
+      <div className="content_container">
         {children}
 
-      </body>
-    </html>
+      </div>
+      {/* <Footer /> */}
+
+    </>
+
+
+
   )
 }

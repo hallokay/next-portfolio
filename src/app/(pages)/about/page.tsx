@@ -1,11 +1,12 @@
 import React from 'react'
+import { About, Resume } from '@/components'
 
-export default function About() {
+export default function AboutPage() {
     return (
-        <div>
-            내소개는 뚠따뚠따
+        <>
+            <About />
+            <Resume />
 
-
-        </div>
+        </>
     )
 }

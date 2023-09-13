@@ -1,3 +1,6 @@
+
+
+
 export const nav = [
     {
         title: 'home',
@@ -7,12 +10,11 @@ export const nav = [
     {
         title: 'about',
         url: '/about'
-    }, {
-        title: 'about',
-        url: '/about'
-    }, {
-        title: 'about',
-        url: '/about'
-    }
+    },
+    {
+        title: 'work',
+        url: '/work'
+    },
 
 ]
+
